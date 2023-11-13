@@ -5,12 +5,19 @@
 In the vast realm of Linux administration and cybersecurity, log files stand as silent witnesses to the activities within a system. The syslog, a central repository for events, is a linchpin in this ecosystem. Navigating through the intricate web of logs can be challenging, but understanding their importance is paramount, especially when dealing with security incidents.
 
 
+
+
 **Logs, Logs, Everywhere!**
 
 Linux, being a meticulous chronicler, generates a plethora of log entries. Navigating the /var/log directory reveals a myriad of log files. While this wealth of information is a treasure trove for cybersecurity professionals, identifying the correct log can be akin to finding a needle in a haystack. Among the crucial logs are:
 Cron Jobs: Automated tasks are the backbone of system maintenance. The cron utility, with its crontab files, empowers users to schedule recurring commands or scripts. Understanding the various directories like /etc/cron.daily, /etc/cron.hourly, and /etc/cron.d is vital. Root users often run essential system chores, each with its specified schedule.
 
+
+
+
 <img width="1749" alt="Screenshot 2023-10-31 at 8 47 39 PM" src="https://github.com/CyberSecBlog/Unraveling-the-Mysteries-of-Linux-Logs-Cron-Jobs-Variables-and-User-Inputs/assets/148671791/6be2dd93-60ce-49d2-9a89-5c4f9f71569f">
+
+
 
 
 **Cron Jobs - Important Information**
@@ -20,13 +27,19 @@ Variables - The Heart of Bash Scripting
 In the realm of bash scripting, variables play a pivotal role. These memory locations store dynamic data, allowing scripts to adapt to diverse scenarios. The date command, a stalwart in generating timestamps, aids in creating unique filenames. Employing $(date +"%H\_%M\_%s.log") ensures distinctive filenames, crucial for script repeatability. Various formats, detailed in the man page, provide flexibility for sorting and differentiation.
 
 
+
+
 **The date Command**
 
 The date command, a scripting ally, facilitates the creation of unique filenames with timestamps. Its versatility shines when used in conjunction with descriptive words, as in apache_$(date +"%F").log, resulting in filenames like apache_05-30-2022.log. Exploring the man page unveils a plethora of formatting options.
 Reading Inputs - Flexibility in Action
 In the dynamic landscape of cybersecurity, scripts must adapt to diverse environments. Variables offer the required flexibility. Introducing user input and logic into scripts transforms them from static to dynamic tools. Techniques like the read command, capturing user input, and passing arguments empower scripts to handle varied scenarios.
 
+
+
+
 ![Screenshot 2023-10-31 at 8 06 29 PM](https://github.com/CyberSecBlog/Unraveling-the-Mysteries-of-Linux-Logs-Cron-Jobs-Variables-and-User-Inputs/assets/148671791/b66a52d2-a6e6-49ff-b52d-4080dc2fb6c9)
+
 
 
 
