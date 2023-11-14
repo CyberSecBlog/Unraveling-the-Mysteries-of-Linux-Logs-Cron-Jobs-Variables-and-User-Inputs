@@ -5,11 +5,13 @@
 In the vast realm of Linux administration and cybersecurity, log files stand as silent witnesses to the activities within a system. The syslog, a central repository for events, is a linchpin in this ecosystem. Navigating through the intricate web of logs can be challenging, but understanding their importance is paramount, especially when dealing with security incidents.
 
 
+![Screenshot 2023-10-31 at 8 06 29 PM](https://github.com/CyberSecBlog/Unraveling-the-Mysteries-of-Linux-Logs-Cron-Jobs-Variables-and-User-Inputs/assets/148671791/b66a52d2-a6e6-49ff-b52d-4080dc2fb6c9)
 
 
 **Logs, Logs, Everywhere!**
 
 Linux, being a meticulous chronicler, generates a plethora of log entries. Navigating the **'/var/log'** directory reveals a myriad of log files. While this wealth of information is a treasure trove for cybersecurity professionals, identifying the correct log can be akin to finding a needle in a haystack. Among the crucial logs are:
+
 
 **Cron Jobs**: Automated tasks are the backbone of system maintenance. The cron utility, with its crontab files, empowers users to schedule recurring commands or scripts. Understanding the various directories like **/etc/cron.daily, /etc/cron.hourly**, and **/etc/cron.d** is vital. Root users often run essential system chores, each with its specified schedule.
 
@@ -41,12 +43,6 @@ The **date** command, a scripting ally, facilitates the creation of unique filen
 **Reading Inputs - Flexibility in Action**
 
 In the dynamic landscape of cybersecurity, scripts must adapt to diverse environments. Variables offer the required flexibility. Introducing user input and logic into scripts transforms them from static to dynamic tools. Techniques like the read command, capturing user input, and passing arguments empower scripts to handle varied scenarios.
-
-
-
-
-![Screenshot 2023-10-31 at 8 06 29 PM](https://github.com/CyberSecBlog/Unraveling-the-Mysteries-of-Linux-Logs-Cron-Jobs-Variables-and-User-Inputs/assets/148671791/b66a52d2-a6e6-49ff-b52d-4080dc2fb6c9)
-
 
 
 
